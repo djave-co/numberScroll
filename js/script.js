@@ -1,7 +1,5 @@
 // Script
 
-console.clear();
-
 (function( $ ) {
 	$.fn.numberScroll = function(){
 		return this.each(function(){
