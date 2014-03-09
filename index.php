@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Skeleton</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<input name="slider" step="2" type="range" min="0" max="100" value="20" data-label="Amount"/>
+		<input name="slider" step="0.1" type="range" min="0" max="50" value="30" data-label="Distance"/>
+	</div>
+
+	<script src="js/libs/jquery.js"></script>
+	<script src="js/libs/mousewheel.js"></script>
+	<script type="text/javascript" src="js/plugins.min.js"></script>
+	<script type="text/javascript" src="js/script.min.js"></script>
+</body>
+</html>

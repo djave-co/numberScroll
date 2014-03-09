@@ -1,0 +1,50 @@
+@import "normalize";
+
+body{
+	padding:2em;
+}
+
+@mixin noselect{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body{
+  font-family:"Open Sans", sans-serif;
+  font-size:13px;
+  background:#2B241A;
+  color:#E8E1D8;
+}
+
+a{
+  text-decoration:underline;
+}
+
+.range-wrap{
+	padding:12px;
+  label{
+    font-weight:bold;
+    margin:0 10px 0 0;
+  }
+  input{
+    // display:none;
+  }
+  .range-value{
+    color:#f39c12;
+    text-decoration:underline;
+    display:inline-block;
+    min-width:50px;
+    cursor:ns-resize;
+  }
+  .direct-text-input{
+	font-size:12px;
+	width:50px;
+	border:none;
+	background:rgba(255,255,255,0.7);
+  }
+  @include noselect;
+}
