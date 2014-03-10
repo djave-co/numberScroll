@@ -1,7 +1,7 @@
 numberScroll
 ============
 
-#Changing HTML5 range input into scrollable digits
+###Changing HTML5 range input into scrollable digits
 
 Dependencies:
 -------------
